@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_races">
+
+    <fragment
+        android:id="@+id/navigation_races"
+        android:name="uk.ac.aston.cs3mdd.f1_tracker.ui.races.RacesFragment"
+        android:label="@string/title_races"
+        tools:layout="@layout/fragment_races"/>
+
+    <fragment
+        android:id="@+id/navigation_standings"
+        android:name="uk.ac.aston.cs3mdd.f1_tracker.ui.standings.StandingsFragment"
+        android:label="@string/title_standings"
+        tools:layout="@layout/fragment_standings"/>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="uk.ac.aston.cs3mdd.f1_tracker.ui.map.MapFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_map"/>
+
+    <fragment
+        android:id="@+id/navigation_diary"
+        android:name="uk.ac.aston.cs3mdd.f1_tracker.ui.diary.DiaryFragment"
+        android:label="@string/title_diary"
+        tools:layout="@layout/fragment_diary"/>
+
+</navigation>

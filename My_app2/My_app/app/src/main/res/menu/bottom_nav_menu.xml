@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_races"
+        android:icon="@drawable/races_25dp"
+        android:title="@string/title_races" />
+
+    <item
+        android:id="@+id/navigation_standings"
+        android:icon="@drawable/podium_standings_24dp"
+        android:title="@string/title_standings" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_diary"
+        android:icon="@drawable/ic_book_24dp"
+        android:title="@string/title_diary" />
+
+</menu>
